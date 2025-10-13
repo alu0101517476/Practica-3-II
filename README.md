@@ -16,7 +16,41 @@ Email: alu0101517476@ull.edu.es
 
 # 1. Ejercicio Físicas 3D
 
+### **Situación 1
 
+En esta situación, al tener el cubo un Rigidbody pero los demás elementos no, el cubo cae y se detiene al entrar en contacto con el plano, mientras que al plano y a la esfera no les pasa nada
+
+### **Situación 2
+
+En esta situación tanto la esfera como el cubo caen y se detienen ante al plano y se desplazan si tanto la esfera como el cubo llegan a tocarse. Por otra parte, al plano no le pasa nada
+
+### **Situación 3
+
+En esta situación el cubo cae. La Esfera no es empujada por la gravedad ni fuerzas, pero sí participa en colisiones si la atraviesan, es decir, los objetos físicos rebotan y chocan contra ella. Si no la mueves, se queda flotando. Esto ocurre ya que la gravedad se ignora al ser un objeto cinemático
+
+### **Situación 4
+
+Al aplicar lo que dicta la situación, ocurre lo mismo que en la situación 2, con la diferencia de que el plano ahora también es un Rigidbody inmóvil. Cabe destacar que el plano caería hacia el infinito junto con los demás objetos, por lo tanto, si queremos el comportamiento descrito, el cual es similar al del ejercicio 2, tenemos que marcar la opción `Is Kinematic`
+
+### **Situación 5
+
+En esta situación, todos  los objetos caen. La Esfera tendrá más inercia, por lo que, en un choque entre la Esfera y el Cubo, la esfera impone más su movimiento, es decir, hay un menor cambio de velocidad para ella
+
+### **Situación 6
+
+En la presente situación, se presenta un escenario muy similar al de la situación anterior con la diferencia de que la esfera practicamente no se inmuta ante los impactos
+
+### **Situación 7
+
+Para esta situación se crea un material con alta fricción y se le asigna a la esfera. En este caso, todo es muy similar a las situaciones anteriores, con la diferencia que la esfera reduce muchísimo su deslizamiento enn el plano, respecto a las situaciones anteriores
+
+### **Situación 8
+
+En este caso, el cubo puede atravesar la esfera pero saldrán eventos de trigger. Para ver estos eventos, tendríamos que asignarlae a la esfera un Script que al atravesarla dispare algún evento
+
+### **Ejercicio 9
+
+La Esfera cae al ser física, pero no colisiona sólidamente con el Plano ni con el Cubo al ser también trigger. Además, disparará eventos de trigger al atravesarlos de la misma manera que el cubo con la esfera en la situación anterior
 
 ---
 
