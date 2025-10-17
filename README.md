@@ -6,11 +6,6 @@ Email: alu0101517476@ull.edu.es
 
 ----
 
-# Índice
-
-
-----
-
 **Descripción del trabajo realizado**
 
 
@@ -467,5 +462,6 @@ En el siguiente GIF se puede apreciar el comportamiento de los distintos materia
 - Derecha → Material deslizante
 
 ![Ejercicio 5](Img/FISICAS%20Ejercicio%205.gif)
+
 
 Como vemos, la esfera central rebota mucho más que las demás, la de la izquierda le cuesta moverse, mientras que la de la derecha del todo se mueve sin esfuerzo.
